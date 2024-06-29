@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+ a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
+.navbar {
+  overflow: hidden;
+  background-color: #F77F00;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1.3em 1.2em;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+  border-radius: 0;
+}
+
+/* Main content */
+.main {
+  margin-top: 2.5em; /* Add a top margin to avoid content overlay */
+}
+
+#home
+{
+  background-image: url("WMFIRE.png");
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+#updates{
+  min-height: 50vh
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+
+section{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.name{
+    margin-left: 5em;
+    margin-bottom: 2em;
+}
+
+img {
+  float: left;
+}
+
+
+.section-name{
+  margin-left: 3em;
+  
+}
+.section-education{
+    background-color: white;
+}
+
+.section-resources{
+  background-color: 
+    black;
+}
+
+#wm-resources p{
+  color: white;
+}
+
+#wm-resources h3{
+  color: white;
+}
+
+#wm-resources h2{
+  color: white;
+}
+
+a:visited { 
+ text-decoration: none; 
+ color: white; 
+}
+
+a:hover { 
+  text-decoration: none; 
+  color:#FCBF49; 
+}
+
+.home h1{
+  font-color: white;
+}
